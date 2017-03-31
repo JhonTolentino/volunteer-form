@@ -19,32 +19,32 @@
 
   <form class="gutter-1-2" action="https://formspree.io" method="POST">
 
-    <section>
+    <section >
 
       <fieldset>
         <legend class="tera">Personal details</legend>
-        <div class="">
+        <div class="unit">
 
-          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
             <label for="name">Full name</label>
-            <input id="name" name="name">
+            <input class="grid" id="name" name="name">
             <p class="micro italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
 
-          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
             <label for="name-2">What should we call you?</label>
-            <input id="name-2" name="name-2" type="text">
+            <input class="grid" id="name-2" name="name-2" type="text">
             <p class="micro italic">What all your friends call you, e.g. “Liz”.</p>
           </div>
 
           <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="date">Date of birth</label>
-            <input id="date" name="date" type="date">
+            <input class="grid" id="date" name="date" type="date">
           </div>
 
-          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="grid xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="size">T-shirt size</label>
-            <select id="size" name="_size">
+            <select class="grid" id="size" name="_size">
               <option value="">Select a t-shirt size</option>
               <option>Fitted: XS</option>
               <option>Fitted: S</option>
@@ -58,34 +58,34 @@
               <option>Straight-cut: XL</option>
           </div>
 
-          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="grid xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="email">Email</label>
-            <input id="email" type="email" name="email">
+            <input class="grid" id="email" type="email" name="email">
           </div>
 
-          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="grid xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="tel">Phone number (optional)</label>
-            <input id="tel" name="tel" type="tel">
+            <input class="grid" id="tel" name="tel" type="tel">
           </div>
 
         </div>
       </fieldset>
 
       <fieldset>
-        <legend class="bold">Address</legend>
+        <legend class="tera">Address</legend>
         <div class="">
 
-          <div class="">
+          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="address">Street address</label>
             <input id="address" name="address">
           </div>
 
-          <div class="">
+          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="city">City</label>
             <input id="city" name="city">
           </div>
 
-          <div class="">
+          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="province">Province</label>
             <select id="province" name="_province">
               <option value="">Select a province</option>
@@ -105,7 +105,7 @@
             </select>
           </div>
 
-          <div class="">
+          <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="postal">Postal code</label>
             <input id="postal" name="postal">
           </div>
@@ -264,10 +264,10 @@
             <textarea id="comment" name="comment" rows="8" cols="80"></textarea>
           </div>
         </div>
-      </fieldset>
 
-      <fieldset>
-        <button type="button" name="button">Apply</button>
+        <div class="unit-content-center-horizontal">
+          <button type="button" name="button">Apply</button>
+        </div>
       </fieldset>
 
       <footer>
